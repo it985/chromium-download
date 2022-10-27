@@ -45,11 +45,11 @@ jobs:
       - name: Push
         run: |
           date +"%Y-%m-%d %H:%M:%S" > update.txt
-          git config --global user.email "icolabot@e.yfun.top"
-          git config --global user.name "iColaBot"
+          git config --global user.email "2071916845@qq.com"
+          git config --global user.name "it985"
           #git add .
           #git commit -m $(date +"%Y-%m-%d_%H:%M:%S")
-          #git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          #git remote set-url origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/${{ github.repository }}
           #git push origin main
           #npm version patch
           #npm publish
