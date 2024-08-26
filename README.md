@@ -1,4 +1,4 @@
-# 下载 Chromium 浏览器
+# 获取 Chromium 浏览器
 
 > 每 8 小时从官方更新 Chromium 浏览器，自 2022 年 3 月 13 日开始。
 > 
@@ -6,75 +6,26 @@
 >
 > 在下方寻找适合您的版本进行下载。
 
-## Windows (x86)
+## 下载链接
 
-```
-LitterBox: @{lit_win}
-CatBox: @{cat_win}
-Null: @{null_win}
-Transfer.sh: @{trs_win}
-```
+> 此处链接的文件最后更新于 UTC 时间 2024-08-26 15:06:27
+。
 
-## Windows (x64)
+- [Windows (x86)]()
+- [Windows (x64)]()
+- [macOS (Intel)]()
+- [macOS (ARM)]()
+- [Linux (x86)]()
+- [Linux (x64)]()
+- [Android]()
+- [Chromium OS]()
 
-```
-LitterBox: @{lit_win_x64}
-CatBox: @{cat_win_x64}
-Null: @{null_win_x64}
-Transfer.sh: @{trs_win_x64}
-```
+## 索引文件
 
-## macOS (Intel)
+请查看项目根目录下的 `download.json` 文件。
 
-```
-LitterBox: @{lit_mac}
-CatBox: @{cat_mac}
-Null: @{null_mac}
-Transfer.sh: @{trs_mac}
-```
+## 免责声明
 
-## macOS (ARM)
+我们从官网中指出的方法，通过脚本自动下载并上传至 Transfer.sh 提供下载。
 
-```
-LitterBox: @{lit_mac_arm}
-CatBox: @{cat_mac_arm}
-Null: @{null_mac_arm}
-Transfer.sh: @{trs_mac_arm}
-```
-
-## Linux (x86)
-
-```
-LitterBox: @{lit_linux}
-CatBox: @{cat_linux}
-Null: @{null_linux}
-Transfer.sh: @{trs_linux}
-```
-
-## Linux (x64)
-
-```
-LitterBox: @{lit_linux_x64}
-CatBox: @{cat_linux_x64}
-Null: @{null_linux_x64}
-Transfer.sh: @{trs_linux_x64}
-```
-
-## Android
-
-```
-LitterBox: @{lit_android}
-CatBox: @{cat_android}
-Null: @{null_android}
-Transfer.sh: @{trs_android}
-```
-
-## Chromium OS
-
-```
-LitterBox: @{lit_chromiumos}
-CatBox: @{cat_chromiumos}
-Null: @{null_chromiumos}
-Transfer.sh: @{trs_chromiumos}
-```
-
+我们使用 CI (GitHub Action) 进行同步，但 `@ocoke`, `yfun-lab`, 以及 `Transfer.sh` 不对文件内容进行保证，请自行对其分辨。
