@@ -60,3 +60,8 @@ jobs:
           git push origin main
         #env:
          # NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - name: Delete Workflow Runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 30
+          keep_minimum_runs: 6
